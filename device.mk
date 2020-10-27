@@ -45,11 +45,10 @@ BOARD_HAVE_QCOM_FM := true
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-aosip
+    $(DEVICE_PATH)/overlay
 
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-aosip/aosip-sdk
+#PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-yaap/yaap-sdk
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay

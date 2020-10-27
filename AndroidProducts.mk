@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_lavender.mk
+    $(LOCAL_DIR)/yaap_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_lavender-user \
-    aosip_lavender-userdebug \
-    aosip_lavender-eng
+    yaap_lavender-user \
+    yaap_lavender-userdebug \
+    yaap_lavender-eng
