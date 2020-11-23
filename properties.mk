@@ -10,6 +10,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.model=Redmi Note 7 \
     persist.vendor.camera.awb.sync=2
 
+PRODUCT_PROPERTY_OVERRIDES += \
+		lineage.updater.uri=https://sfier.xyz/LineageOTA/builds/aosip1.json
+
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=256m \
